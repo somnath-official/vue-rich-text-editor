@@ -1,0 +1,32 @@
+.markdown-editor {
+	background-color: white;
+	color: black;
+}
+
+.markdown-editor .markdown-tool-box-holder {
+	margin-bottom: 8px;
+	padding: 8px;
+	border-bottom: 1px solid #c1c1c1;
+}
+
+.markdown-editor .markdown-main-editable-section {
+	outline: none;
+	padding: 0px 8px;
+	min-height: 200px;
+	resize: none;
+	box-sizing: border-box;
+	width: 100%;
+	border: none;
+}
+
+.markdown-editor button.toolbox-btn {
+	margin: 0px 4px;
+	cursor: pointer;
+	border: none;
+	padding: 4px 8px;
+}
+
+.markdown-editor button.toolbox-btn.checked {
+	background-color: #5252ff;
+	color: white;
+}
